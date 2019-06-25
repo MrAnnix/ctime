@@ -196,10 +196,11 @@ void print_help(char *program_name){
 
 void print_version(){
   printf("ctime v0.6 ");
-  printf("Copyright (c) 2019 Raúl San Martín Aniceto.\n\n");
+  printf("Copyright (c) 2019 Raúl San Martín Aniceto.\n");
   printf("MIT License\n");
   printf("<https://opensource.org/licenses/MIT>.\n");
-  printf("THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND\n");
+  printf("THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND\n\n");
+  printf("https://github.com/MrAnnix/ctime.\n");
 }
 
 args_t process_args(int num, char **arguments){
