@@ -195,7 +195,7 @@ void print_help(char *program_name){
 }
 
 void print_version(){
-  printf("ctime v0.6 ");
+  printf("ctime v0.7 ");
   printf("Copyright (c) 2019 Raúl San Martín Aniceto.\n\n");
   printf("MIT License\n");
   printf("<https://opensource.org/licenses/MIT>.\n");
